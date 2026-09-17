@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Antima Gupta | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Hi, I'm <span>Antima Gupta</span>
+            </h1>
+
+            <h2>B.Sc. Information Technology Student</h2>
+
+            <p>
+                Passionate about Machine Learning, Python, SQL,
+                Data Analytics, and building practical technology solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="resume.pdf" class="btn secondary" download>
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/antimagupta0001-del"
+                   target="_blank"
+                   aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/antima-gupta-7aa73238b"
+                   target="_blank"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">About Me</h2>
+
+            <p>
+                I am Antima Gupta, a B.Sc. Information Technology student
+                with an interest in Machine Learning, Python, SQL,
+                Data Analytics, and web technologies.
+            </p>
+
+            <p>
+                I enjoy working on practical projects that combine
+                programming, data analysis, and machine learning to
+                solve real-world problems.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-chart-column"></i>
+                    <h3>Data Analytics</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Power BI</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML & CSS</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Git & GitHub</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects-grid">
+
+
+                <!-- Fake News Detection -->
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+
+                    <h3>Fake News Detection using Machine Learning</h3>
+
+                    <p>
+                        A machine learning based application designed to
+                        detect potentially fake or unreliable news.
+                        The project combines an ML prediction model with
+                        current-news evidence verification to provide a
+                        more informative final result.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Streamlit</span>
+                        <span>Scikit-learn</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Customer Segmentation -->
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+
+                    <h3>Customer Segmentation</h3>
+
+                    <p>
+                        A data analysis and machine learning project focused
+                        on identifying meaningful customer groups from
+                        customer data. The project helps understand
+                        customer behaviour and supports data-driven
+                        business analysis.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Data Analytics</span>
+                        <span>Machine Learning</span>
+                        <span>Clustering</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+
+        <div class="container">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <p>
+                Interested in connecting or discussing a project?
+                Feel free to reach out.
+            </p>
+
+            <div class="contact-info">
+
+                <a href="mailto:antimagupta0001@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    antimagupta0001@gmail.com
+                </a>
+
+                <a href="https://www.linkedin.com/in/antima-gupta-7aa73238b"
+                   target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/antimagupta0001-del"
+                   target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Antima Gupta. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
